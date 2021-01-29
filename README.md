@@ -1,6 +1,6 @@
 # responsive-components
 
-This repository is a simple example of using ResizeObserver API to make "components" responsive based on their parent container
+This repository is a simple example of using the ResizeObserver API to make "components" responsive based on their parent container. Not on the size of the browser!
 
 For each container element observed we update the class name (XS, SM, MD, LG, XL) based on the container's size
 
@@ -76,3 +76,11 @@ Next thing to do is to use it with a React micro frontend app where each micro a
 ## How to run this
 
 Just open the index.html file in a browser. Clicking the buttons at the bottom will change the container div's size and responsively change the child UI
+
+## Credit where credit is due
+
+The idea for this along with the observer code (modified slightly) came from this article I found a while back
+
+[Good article by Philip Walton](https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem/)
+
+Can't wait to combine this technique with the Micro Frontend architecture
