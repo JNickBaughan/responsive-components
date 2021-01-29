@@ -71,7 +71,7 @@ From there we can use the breakpoint class names to style the child "component"
 
 Pretty cool stuff!
 
-Next thing to do is to use it with a React micro frontend app where each micro application will have the XS, SM, etc applied their parent div in the container application. Then each micro application will render responsively based on where they are rendered within the container app.
+Next thing I want to do is to use it with a React micro frontend app where each micro application will have the XS, SM, etc applied their parent div in the container application. Then each micro application will render responsively based on where they are rendered within the container app. Have a MFE app that is a checkout cart? Render the app in a XL container to see your cart with all of it's details. Have the same route rendered in a small sidebar within your shop to display only the highlights of a customer's orders.
 
 ## How to run this
 
